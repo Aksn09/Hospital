@@ -1,6 +1,5 @@
 <?php
-
-$conn = mysqli_connect('localhost','root','','contact_db') or die('connection failed');
+require 'connection.php';
 
 if(isset($_POST['submit'])){
 
@@ -51,6 +50,7 @@ if(isset($_POST['submit'])){
         <a href="#appointment">appointment</a>
         <a href="#review">review</a>
         <a href="#blogs">blogs</a>
+        <a class = "nav-link" href="logout.php">Logout</a>
     </nav>
 
     <div id="menu-btn" class="fas fa-bars"></div>

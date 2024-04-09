@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+<body>
+    <div class ="container">
+        <div class="login-center">
+            <div class="col">
+            <div><h1>Register your Account</h1></div>
+            <br>
+                <form action = 'backend.php' method = 'POST' >
+                    <!-- <label>Username : </label> -->
+                    <input class= type="text" name="username" placeholder="username">
+                    <!-- <label>Password :</label> -->
+                    <input type="password" name="password" id="password" autocomplete="off" placeholder = "password">
+                    <input type="submit" name="register" value= 'register' class="submit">
+                </form>
+                <br>
+                <div id="footer-box">
+                <a href="index.html" class="sign-up">Return to login!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
